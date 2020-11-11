@@ -11,7 +11,7 @@
 <!-- usage note: edit this section. -->
 
 
-[`tensorflow`] 
+`tensorflow`
 
 ## Introduction
 
