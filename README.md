@@ -46,29 +46,16 @@ The easiest way to run Manubot is to use [continuous integration](#continuous-in
 If you want to build a Manubot manuscript locally, install the [conda](https://conda.io) environment as described in [`build`](build).
 Then, you can build the manuscript on POSIX systems by running the following commands from this root directory.
 
-```sh
-# Add methods and justification of using them 
 
-# maybe discuss all methods explored and the ones chosen
-
-
-# with hashtag
-without hashtag
-
-# You can now open the manuscript webpage/index.html in a web browser.
-# Alternatively, open a local webserver at http://localhost:8000/ with the
-# following commands.
-smth about python server below
-python -m http.server
-```
 
 Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
 The following command, while running, will trigger both the `build.sh` script and `manubot webpage` command upon content changes:
 
+<!-- the three dots for code thing, would be cool to add package names like this
 ```sh
 bash build/autobuild.sh
 ```
-
+--> 
 ### Continuous Integration
 
 Whenever a pull request is opened, CI (continuous integration) will test whether the changes break the build process to generate a formatted manuscript.
