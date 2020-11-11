@@ -10,11 +10,8 @@
 
 <!-- usage note: edit this section. -->
 
-This repository contains a demo manuscript, intended as a playground for everyone to practice using Manubot.
 
-To edit the manuscript, make changes to the files in the [`content`](content) directory.
-You can edit files with the GitHub web interface by using the pencil icon, as shown in the [getting started video](https://manubot.org/docs/getting-started.html).
-Alternatively, if you have experience with Git and GitHub, you can fork this repository and make a traditional [pull request](https://help.github.com/en/articles/creating-a-pull-request).
+['tensorflow'] (https://www.tensorflow.org/api_docs/python/tf/keras/Model)
 
 ## Introduction
 
