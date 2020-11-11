@@ -11,7 +11,7 @@
 <!-- usage note: edit this section. -->
 
 
-[`tensorflow`](tensorflow) (https://www.tensorflow.org/api_docs/python/tf/keras/Model)
+[`tensorflow`] 
 
 ## Introduction
 
