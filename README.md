@@ -4,9 +4,9 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/try-manubot/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/try-manubot/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/manubot/try-manubot/workflows/Manubot/badge.svg)](https://github.com/manubot/try-manubot/actions)
+[![GitHub Actions Status](https://github.com/Dana2021/try-manubot/workflows/Manubot/badge.svg)](https://github.com/manubot/try-manubot/actions)
 
-+ Authors: Anye, Camila, Dana, Jingzu
+ Authors: Anye, Camila, Dana, Jingzu
 
 ## Abstract
 
