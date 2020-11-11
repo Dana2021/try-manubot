@@ -1,4 +1,4 @@
-# Try Manubot: Practice editing this manuscript
+# Project 1: London Bike-Sharing
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -6,7 +6,7 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/try-manubot/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/manubot/try-manubot/workflows/Manubot/badge.svg)](https://github.com/manubot/try-manubot/actions)
 
-## Manuscript description
+## Abstract
 
 <!-- usage note: edit this section. -->
 
@@ -16,7 +16,7 @@ To edit the manuscript, make changes to the files in the [`content`](content) di
 You can edit files with the GitHub web interface by using the pencil icon, as shown in the [getting started video](https://manubot.org/docs/getting-started.html).
 Alternatively, if you have experience with Git and GitHub, you can fork this repository and make a traditional [pull request](https://help.github.com/en/articles/creating-a-pull-request).
 
-## Manubot
+## Introduction
 
 <!-- usage note: do not edit this section -->
 
@@ -28,7 +28,7 @@ See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
 Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
 
-### Repository directories & files
+## Literature Review
 
 The directories are as follows:
 
@@ -40,30 +40,25 @@ The directories are as follows:
 + [`build`](build) contains commands and tools for building the manuscript.
 + [`ci`](ci) contains files necessary for deployment via continuous integration.
 
-### Local execution
+## Methods
 
 The easiest way to run Manubot is to use [continuous integration](#continuous-integration) to rebuild the manuscript when the content changes.
 If you want to build a Manubot manuscript locally, install the [conda](https://conda.io) environment as described in [`build`](build).
 Then, you can build the manuscript on POSIX systems by running the following commands from this root directory.
 
 ```sh
-# Activate the manubot conda environment (assumes conda version >= 4.4)
-conda activate manubot
+# Add methods and justification of using them 
 
-# Build the manuscript, saving outputs to the output directory
-bash build/build.sh
+# maybe discuss all methods explored and the ones chosen
 
-# At this point, the HTML & PDF outputs will have been created. The remaining
-# commands are for serving the webpage to view the HTML manuscript locally.
-# This is required to view local images in the HTML output.
 
-# Configure the webpage directory
-manubot webpage
+# with hashtag
+without hashtag
 
 # You can now open the manuscript webpage/index.html in a web browser.
 # Alternatively, open a local webserver at http://localhost:8000/ with the
 # following commands.
-cd webpage
+smth about python server below
 python -m http.server
 ```
 
@@ -85,8 +80,9 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 
 + **HTML manuscript** at https://manubot.github.io/try-manubot/
 + **PDF manuscript** at https://manubot.github.io/try-manubot/manuscript.pdf
++ **hello** at https://sciencedirect.com/
 
-For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+For continuous integration configuration details, see [`.github/workflows/manubot.yaml`] or [this] (.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
 
 ## License
 
